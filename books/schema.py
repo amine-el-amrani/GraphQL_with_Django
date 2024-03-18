@@ -7,6 +7,7 @@ from .mutations import CreateBook, EditBook, DeleteBook
 
 
 
+
 class Query(graphene.ObjectType):
     all_books = graphene.List(BooksType)
     all_categories = graphene.List(CategoryType)
